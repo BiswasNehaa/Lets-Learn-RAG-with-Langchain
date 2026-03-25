@@ -1,0 +1,13 @@
+User Query
+   ↓
+Convert to Embedding
+   ↓
+Search in Vector Database
+   ↓
+Retrieve Top Relevant Data
+   ↓
+Combine (Query + Retrieved Data)
+   ↓
+Send to LLM
+   ↓
+Final Answer
