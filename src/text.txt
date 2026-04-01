@@ -1,0 +1,25 @@
+
+# THE EVOLUTION OF INTELLIGENCE: FROM ALGORITHMS TO RAG
+
+## SECTION 1: THE EARLY ERA OF COMPUTING
+The history of Artificial Intelligence (AI) began in the mid-20th century. In 1950, Alan Turing published 'Computing Machinery and Intelligence,' which proposed the 'Turing Test' as a measure of machine intelligence. During this era, AI was mostly 'Symbolic AI'—logic-based systems where humans programmed every rule manually. These systems were excellent at math and chess but struggled with the messy reality of human language.
+
+## SECTION 2: THE RISE OF NEURAL NETWORKS
+By the 2010s, the focus shifted toward Deep Learning. Instead of manual rules, researchers began using Artificial Neural Networks modeled loosely after the human brain. The introduction of the 'Transformer' architecture in 2017 by Google researchers changed everything. This allowed models to understand the 'context' of words by looking at the entire sentence at once, rather than one word at a time.
+
+## SECTION 3: VECTOR DATABASES AND EMBEDDINGS
+In a modern RAG pipeline, we don't just store text; we store 'Vectors.' An embedding model (like the ones from HuggingFace) converts a sentence into a long list of numbers. 
+* These numbers represent the 'meaning' of the text.
+* For example, the vector for 'King' is mathematically closer to 'Queen' than it is to 'Apple.'
+* Vector databases like Typesense allow us to perform 'Nearest Neighbor' searches to find the most relevant information in milliseconds.
+
+## SECTION 4: HOW RAG WORKS
+Retrieval-Augmented Generation (RAG) was developed to solve the 'hallucination' problem in AI. Even the best LLMs (like Groq's models) can make things up if they don't have the data in their training set. 
+RAG works by:
+1. Taking a user query.
+2. Searching a private database (like your 'books' collection) for relevant text.
+3. Feeding that text into the LLM as 'Reference Material.'
+4. Asking the LLM to answer the question ONLY using that provided context.
+
+## SECTION 5: THE FUTURE OF SEARCH
+As we move into 2026, the boundary between search engines and AI is disappearing. We are seeing 'Agentic RAG,' where the AI doesn't just search once, but can reason about whether it needs more information and perform multiple searches to get the perfect answer.
